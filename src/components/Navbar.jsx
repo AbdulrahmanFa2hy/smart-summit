@@ -27,7 +27,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Features', to: 'features' },
-    { name: 'How It Works', to: 'how-it-works' },
+    // { name: 'How It Works', to: 'how-it-works' },
     { name: 'Testimonials', to: 'testimonials' },
     { name: 'Pricing', to: 'pricing' },
     { name: 'Contact', to: 'contact' },
