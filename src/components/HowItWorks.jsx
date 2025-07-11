@@ -41,7 +41,7 @@ const HowItWorks = () => {
 
   return (
     <section id="how-it-works" className="section bg-white">
-      <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container-custom mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

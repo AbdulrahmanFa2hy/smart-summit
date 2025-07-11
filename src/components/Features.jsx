@@ -15,7 +15,7 @@ const FeatureCard = ({ icon, title, description, delay }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
-      className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+      className="bg-white p-3 sm:p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
     >
       <div className="flex items-start">
         <div className="flex-shrink-0 mr-4">

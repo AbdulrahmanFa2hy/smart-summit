@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="section bg-gradient-to-b from-gray-50 to-white py-20">
+    <section id="contact" className="section bg-gradient-to-b from-gray-50 to-white py-10 sm:py-20">
       <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8 max-w-8xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-white rounded-2xl p-8 shadow-lg"
+            className="bg-white rounded-2xl p-3 py-4 sm:p-8 shadow-lg"
           >
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h3>
             
@@ -108,7 +108,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-white rounded-2xl p-8 shadow-lg"
+            className="bg-white rounded-2xl p-3 py-6 sm:p-8 shadow-lg"
           >
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Send a Message</h3>
             

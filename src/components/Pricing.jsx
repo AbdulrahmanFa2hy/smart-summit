@@ -16,7 +16,7 @@ const PricingCard = ({ title, price, features, isPopular, delay, period }) => {
           Most Popular
         </div>
       )}
-      <div className="p-6">
+      <div className="p-3 sm:p-6">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">{title}</h3>
         <div className="mb-6">
           <span className="text-4xl font-bold text-gray-900">${price}</span>

@@ -8,7 +8,7 @@ const TestimonialCard = ({ quote, author, position, restaurant, image, delay }) 
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
-      className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col h-full"
+      className="bg-white p-3 sm:p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col h-full"
     >
       <div className="flex items-center text-yellow-400 mb-4">
         <FiStar className="fill-current" />
